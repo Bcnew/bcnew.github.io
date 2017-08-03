@@ -31,8 +31,7 @@ body {
   background-image: url(../img/poslugy.png);
   background-color: #abaaad;
   background-size: 100%;
-
-
+  background-repeat: no-repeat;
 }
 body {
   color: #fff;
