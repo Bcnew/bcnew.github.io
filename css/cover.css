@@ -63,8 +63,13 @@ body {
   padding: 30px;
   
 }
+.poslugy {
+    text-align: left;
+    margin-left: 150px;
+}
 #block {
   display: none;
+
 }
 /*
  * Header
