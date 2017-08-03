@@ -32,6 +32,7 @@ body {
   background-color: #abaaad;
   background-size: 100%;
 
+
 }
 body {
   color: #fff;
@@ -61,7 +62,6 @@ body {
 .inner {
   padding: 30px;
 }
-
 
 /*
  * Header
@@ -98,6 +98,19 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+/*#sh1 {
+  position: fixed;
+  margin-left: 10%;
+  -moz-transition: all 2s 0.1s ease-in;
+  -o-transition: all 2s 0.1s ease-in;
+  -webkit-transition: all 2s 0.1s ease-in;
+}
+#sh1:hover {
+-webkit-transform: rotate(10deg);
+-moz-transform: rotate(10deg);
+-o-transform: rotate(10deg);
+}*/
+
 
 @media (min-width: 768px) {
   .masthead-brand {
