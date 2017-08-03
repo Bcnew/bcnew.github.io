@@ -20,7 +20,11 @@ a:hover {
   border: 1px solid #fff;
 }
 
-
+.brands {
+  width: 100px;
+  padding-top: 20px;
+  vertical-align: middle;
+}
 /*
  * Base structure
  */
