@@ -28,7 +28,7 @@ a:hover {
 /*
  * Base structure
  */
-
+.lead {font-size: 1em;}
 html,
 body {
   height: 100%;
