@@ -71,13 +71,16 @@ body {
   padding: 30px;
   
 }
+/*.lead {
+  font-size: 1em;
+}*/
 .poslugy {
     text-align: left;
     margin-left: 120px;
 }
 #block {
   display: none;
-
+  padding: 100px;
 }
 /*
  * Header
@@ -191,6 +194,8 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 800px;
+    width: 900px;
   }
+
 }
+
