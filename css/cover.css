@@ -22,7 +22,12 @@ a:hover {
 
 .brands {
   width: 100px;
-  padding-top: 20px;
+  padding: 20px;
+  /*vertical-align: middle;*/
+  
+}
+.align_brands {
+  display:table-cell; 
   vertical-align: middle;
 }
 /*
