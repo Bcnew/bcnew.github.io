@@ -19,23 +19,23 @@ a:hover {
 
   border: 1px solid #fff;
 }
-.vcenter {
+/*.vcenter {
     display: inline-block;
     vertical-align: middle;
     
 }
-
+*/
 .brands {
   width: 150px;
-  margin-top: 25px;
-  display: inline-block;
+  padding-top: 55px;
+/*  display: inline-block;*/
   /*max-height: 100px;*/
-  
 }
-/*#bayer {
+
+#bayer {
   width: 100px;
   text-align: center;
-}*/
+}
 /*
  * Base structure
  */
