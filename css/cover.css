@@ -140,7 +140,12 @@ body {
 -moz-transform: rotate(10deg);
 -o-transform: rotate(10deg);
 }*/
-
+  .main-text-big {
+  font-size: 40px;
+}
+.main-text-small {
+  font-size: 20px;
+}
 
 @media (min-width: 768px) {
   .masthead-brand {
@@ -149,12 +154,6 @@ body {
   .masthead-nav {
     float: right;
   }
-    .main-text-big {
-  font-size: 20px;
-}
-  .main-text-small {
-  font-size: 10px;
-}
 }
 
 
@@ -215,12 +214,7 @@ body {
   .cover-container {
     width: 700px;
   }
-  .main-text-big {
-  font-size: 40px;
-}
-.main-text-small {
-  font-size: 20px;
-}
+
 
 }
 
