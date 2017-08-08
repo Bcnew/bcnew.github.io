@@ -89,10 +89,7 @@ body {
     text-align: left;
     margin-left: 120px;
 }
-/*#block {
-  display: none;
-  padding: 100px;
-}*/
+
 /*
  * Header
  */
@@ -204,7 +201,10 @@ body {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
-
+#block {
+  display: none;
+  padding: 100px;
+}
 
 }
 
@@ -217,7 +217,10 @@ body {
     .masthead-nav {
     float: right;
   }
-
+  #block {
+  display: none;
+  padding: 100px;
+}
 
 }
 
