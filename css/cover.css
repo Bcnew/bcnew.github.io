@@ -199,6 +199,13 @@ body {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
+  
+  .main-text-big {
+  font-size: 20px;
+}
+  .main-text-small {
+  font-size: 10px;
+}
 }
 
 @media (min-width: 992px) {
