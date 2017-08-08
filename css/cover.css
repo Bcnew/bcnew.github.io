@@ -149,6 +149,12 @@ body {
   .masthead-nav {
     float: right;
   }
+    .main-text-big {
+  font-size: 20px;
+}
+  .main-text-small {
+  font-size: 10px;
+}
 }
 
 
@@ -164,12 +170,6 @@ body {
   /*font-weight: bold;*/
 }
 
-.main-text-big {
-  font-size: 40px;
-}
-.main-text-small {
-  font-size: 20px;
-}
 
 /*
  * Footer
@@ -206,12 +206,7 @@ body {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 
-  .main-text-big {
-  font-size: 20px;
-}
-  .main-text-small {
-  font-size: 10px;
-}
+
 }
 
 @media (min-width: 992px) {
@@ -220,6 +215,12 @@ body {
   .cover-container {
     width: 700px;
   }
+  .main-text-big {
+  font-size: 40px;
+}
+.main-text-small {
+  font-size: 20px;
+}
 
 }
 
