@@ -87,7 +87,7 @@ body {
 }*/
 .poslugy {
     text-align: left;
-    margin-left: 120px;
+    padding-left: 100px;
 }
 
 /*
@@ -205,7 +205,10 @@ body {
   display: none;
   padding: 100px;
 }
-
+.poslugy {
+    text-align: left;
+    margin-left: 120px;
+}
 }
 
 @media (min-width: 992px) {
@@ -220,6 +223,10 @@ body {
   #block {
   display: none;
   padding: 100px;
+}
+.poslugy {
+    text-align: left;
+    margin-left: 120px;
 }
 
 }
