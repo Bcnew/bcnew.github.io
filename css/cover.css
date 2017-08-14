@@ -1,44 +1,26 @@
-/*
- * Globals
- */
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Poiret+One&subset=cyrillic');
-/* Links */
 a,
 a:focus,
 a:hover {
   color: #fff;
 }
-
-/* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
   color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none;
   background-color: #fff;
-
   border: 1px solid #fff;
 }
-/*.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    
-}
-*/
 .brands {
   width: 100px;
   padding-top: 25px;
-/*  display: inline-block;*/
-  /*max-height: 100px;*/
 }
 
 #bayer {
   width: 70px;
   text-align: center;
 }
-/*
- * Base structure
- */
 .lead {font-size: 1em;}
 html,
 body {
@@ -47,23 +29,16 @@ body {
   background-color: #abaaad;
   background-size: 100%;
   background-repeat: no-repeat;
-  
-  /*font-family: 'Poiret One', cursive;*/
   font-family: 'Comfortaa', cursive;
 }
 body {
-  /*color: #fff;*/
   color: white;
   text-align: center;
-  /*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
-  /*text-shadow: 0 0.2px 0.5px rgba(0,0,0,.5);*/
 }
-
-/* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
   width: 100%;
-  height: 100%; /* For at least Firefox */
+  height: 100%;
   min-height: 100%;
   -webkit-box-shadow: inset 0 0 300px rgba(0,0,0,.5);
           box-shadow: inset 0 0 300px rgba(0,0,0,.5);
@@ -76,28 +51,18 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-
-/* Padding for spacing */
 .inner {
   padding: 30px;
   
 }
-/*.lead {
-  font-size: 1em;
-}*/
 .poslugy {
     text-align: left;
     padding-left: 100px;
 }
-
-/*
- * Header
- */
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 .masthead-nav > li {
   display: inline-block;
 }
@@ -108,8 +73,7 @@ body {
   padding-right: 0;
   padding-left: 0;
   font-size: 16px;
-  /*font-weight: bold;*/
-  color: #fff; /* IE8 proofing */
+  color: #fff; 
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
@@ -125,19 +89,7 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
-/*#sh1 {
-  position: fixed;
-  margin-left: 10%;
-  -moz-transition: all 2s 0.1s ease-in;
-  -o-transition: all 2s 0.1s ease-in;
-  -webkit-transition: all 2s 0.1s ease-in;
-}
-#sh1:hover {
--webkit-transform: rotate(10deg);
--moz-transform: rotate(10deg);
--o-transform: rotate(10deg);
-}*/
-  .main-text-big {
+.main-text-big {
   font-size: 40px;
 }
 .main-text-small {
@@ -152,37 +104,17 @@ body {
     float: right;
   }
 }
-
-
-/*
- * Cover
- */
-
 .cover {
   padding: 0 20px;
 }
 .cover .btn-lg {
   padding: 10px 20px;
-  /*font-weight: bold;*/
 }
-
-
-/*
- * Footer
- */
-
 .mastfoot {
-  color: #999; /* IE8 proofing */
+  color: #999;
   color: rgba(255,255,255,.5);
 }
-
-
-/*
- * Affix and center
- */
-
 @media (min-width: 768px) {
-  /* Pull out the header and footer */
   .masthead {
     position: fixed;
     top: 0;
@@ -191,15 +123,13 @@ body {
     position: fixed;
     bottom: 0;
   }
-  /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
   }
-  /* Handle the widths */
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    width: 100%;
   }
 #block {
   display: none;
@@ -210,7 +140,6 @@ body {
     margin-left: 60px;
 }
 }
-
 @media (min-width: 992px) {
   .masthead,
   .mastfoot,
@@ -228,6 +157,20 @@ body {
     text-align: left;
     margin-left: 60px;
 }
-
 }
-
+@media (max-width: 500px) {
+  .main-text-big {
+  font-size: 20px;
+}
+.main-text-small {
+  font-size: 10px;
+}
+#block {
+  display: none;
+  padding: 10px;
+}
+ .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+}
