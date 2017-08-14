@@ -95,7 +95,16 @@ body {
 .main-text-small {
   font-size: 20px;
 }
-
+/*#logo {
+  width: 80px;
+  height: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 35px;
+  background-image: url(../img/brandcom_logo_white.png);
+  background-size: 80px;
+  display: block;
+}*/
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
@@ -157,6 +166,13 @@ body {
     text-align: left;
     margin-left: 60px;
 }
+/*#logo {
+  width: 80px;
+  position: fixed;
+  bottom: 30px;
+  right: 35;
+  background-image: url(../img/brandcom_logo_white.png);
+}*/
 }
 @media (max-width: 767px) {
   .main-text-big {
@@ -164,10 +180,6 @@ body {
 }
 .main-text-small {
   font-size: 10px;
-}
-#block {
-  display: none;
-  padding: 10px;
 }
  .mastfoot {
   position: relative;
@@ -187,15 +199,15 @@ body {
     vertical-align: middle;
   }
 .brands {
-  width: 30%;
+  width: 25%;
   padding-top: 25px;
 }
 #bayer {
-  width: 30%;
+  width: 25%;
   text-align: center;
 }
-.poslugy {
+/*.poslugy {
     text-align: left;
     margin-left: 20px;
-}
+}*/
 }
