@@ -194,4 +194,8 @@ body {
   width: 30%;
   text-align: center;
 }
+.poslugy {
+    text-align: left;
+    margin-left: 20px;
+}
 }
