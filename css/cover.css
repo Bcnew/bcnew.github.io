@@ -158,7 +158,7 @@ body {
     margin-left: 60px;
 }
 }
-@media (max-width: 500px) {
+@media (max-width: 767px) {
   .main-text-big {
   font-size: 20px;
 }
@@ -170,6 +170,28 @@ body {
   padding: 10px;
 }
  .mastfoot {
+  position: relative;
     bottom: 0;
   }
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+  }
+    .masthead {
+    position: relative;
+    top: 0;
+    margin-top: 0;
+  }
+    .cover {
+    vertical-align: middle;
+  }
+.brands {
+  width: 30%;
+  padding-top: 25px;
+}
+#bayer {
+  width: 30%;
+  text-align: center;
+}
 }
